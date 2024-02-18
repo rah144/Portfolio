@@ -476,7 +476,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 79px;
@@ -490,7 +490,7 @@ section {
   margin: 0;
   text-transform: uppercase;
   display: block;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #45505b;
   font-size: 13px;
@@ -512,6 +512,12 @@ section {
   background-color: #0563bb;
 }
 
+@media screen and (max-width: 990px) {
+  /* Add a selector here, for example, targeting a class or an element */
+  .skills-content {
+    margin-left: 0px !important;
+  }
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
